@@ -1,0 +1,49 @@
+{
+    "name": "destruidorpt/laravel-sqrl-auth",
+    "description": "Package for Authentication between Laravel and SQRL",
+    "keywords": ["SQRL", "laravel", "authentication", "QRCode", "auth", "login", "package", "Must have", "MCIF", "IPLeiria", "ESTG"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Elton Pastilha",
+            "email": "elton_ola@hotmail.com",
+            "homepage": "https://github.com/DestruidorPT",
+            "role": "Developer, CyberSecurity Expert and Gamer"
+        },
+        {
+            "name": "Vladyslav Adamovych",
+            "email": "vladyslav.adamovych@ipleiria.pt",
+            "homepage": "https://github.com/nekkiii",
+            "role": "Developer, CyberSecurity Expert and Gamer"
+        },
+        {
+            "name": "João Ricardo",
+            "email": "joao_pricardo@hotmail.com",
+            "homepage": "https://github.com/kratezo",
+            "role": "Developer, CyberSecurity Expert and Gamer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "laravel/framework": ">=6.0",
+        "simplesoftwareio/simple-qrcode": ">=2.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "DestruidorPT\\LaravelSQRLAuth\\": "/src"
+        },
+        "classmap": [
+            "src"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DestruidorPT\\LaravelSQRLAuth\\LaravelSQRLAuthServiceProvider"
+            ]
+        }
+    }
+}
