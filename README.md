@@ -689,9 +689,10 @@ This function will return 404 if the $_GET["nut"] is null or empty, if the nonce
 
 
 # Demo
-*live demo:* https://eltonpastilha.me
+[Click here to go to the video on YouTube](https://www.youtube.com/watch?v=pGqNG7wat_A)
 
-<img src="https://user-images.githubusercontent.com/26120100/72072193-500ab500-32e5-11ea-8ad9-d88c550fc46f.png">
+[![Click here to go to the video on YouTube](http://img.youtube.com/vi/pGqNG7wat_A/0.jpg)](http://www.youtube.com/watch?v=pGqNG7wat_A "Installation package 'Laravel-SQRL-Auth' and demo")
+
 
 # Contacts
 - Elton Pastilha: <br>
