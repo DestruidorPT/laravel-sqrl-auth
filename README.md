@@ -67,6 +67,7 @@ We recommend reading these documents:
 
 # Installation
 You can check the installation process here to [Installation and Demo Video](#installation-and-demo-video).
+
 First, install laravel , and make sure that the database connection settings are correct.
 
 ```
