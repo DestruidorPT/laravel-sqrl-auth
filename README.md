@@ -33,7 +33,7 @@ Laravel SQRL Authentication <img align="right" width="100" height="100" src="htt
   - [SQRLControllerAPI](#sqrlcontrollerapi-destruidorptlaravelsqrlauthapphttpcontrollerssqrlsqrlcontrollerapi)
     - [API Function to SQRL](#api-function-to-sqrl)
     - [API Function to Check If The Nonce Is Ready](#api-function-to-check-if-the-nonce-is-ready)
-- [Demo](#demo)
+- [Installation and Demo Video](#installation-and-demo-video)
 - [Contacts](#contacts)
 
 # Introduction
@@ -66,6 +66,7 @@ We recommend reading these documents:
  - Laravel >= 6.0.0
 
 # Installation
+You can check the installation process here to [Installation and Demo Video](#installation-and-demo-video).
 First, install laravel , and make sure that the database connection settings are correct.
 
 ```
@@ -688,7 +689,7 @@ This function will return 404 if the $_GET["nut"] is null or empty, if the nonce
 ```
 
 
-# Demo
+# Installation and Demo Video
 [Click here to go to the video on YouTube](https://www.youtube.com/watch?v=pGqNG7wat_A)
 
 [![Click here to go to the video on YouTube](http://img.youtube.com/vi/pGqNG7wat_A/0.jpg)](http://www.youtube.com/watch?v=pGqNG7wat_A "Installation package 'Laravel-SQRL-Auth' and demo")
