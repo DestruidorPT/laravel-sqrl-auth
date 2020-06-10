@@ -19,7 +19,7 @@ class SignaturesSQRLValidator extends Controller
                 if(isset($sqrl_pubkey) && !SignaturesSQRLValidator::validateSignature($data_to_validate, $sqrl_pubkey->vuk, $decode_request['urs'])) {
                     return false;
                 }
-            } else if(!isset($decode_request["client"]['pidk']) && !SignaturesSQRLValidator::validateSignature($data_to_validate, $decode_request["client"]['vuk'], $urs_decode)) {
+            } else if(!isset($decode_request["client"]['pidk']) && !SignaturesSQRLValidator::validateSignature($data_to_validate, $decode_request["client"]['vuk'], $decode_request['urs'])) {
                 return false;
             } 
         }
